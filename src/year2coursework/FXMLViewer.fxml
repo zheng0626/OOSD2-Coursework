@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="year2coursework.FXMLViewerController">
+   <children>
+      <Button layoutX="14.0" layoutY="68.0" mnemonicParsing="false" text=" View fixture and result chart" />
+      <Button layoutX="14.0" layoutY="150.0" mnemonicParsing="false" text="Shows all team stats" />
+      <Button layoutX="20.0" layoutY="348.0" mnemonicParsing="false" text="View a match scores" />
+      <Button layoutX="14.0" layoutY="242.0" mnemonicParsing="false" text="Show all team ranking" />
+      <Pane layoutX="244.0" layoutY="71.0" prefHeight="302.0" prefWidth="292.0" />
+   </children>
+</AnchorPane>

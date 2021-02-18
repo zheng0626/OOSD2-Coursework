@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="year2coursework.FXMLAdminController">
+   <children>
+      <Button fx:id="add_team_button" layoutX="368.0" layoutY="63.0" mnemonicParsing="false" onAction="#addTeam" text="Add Team" />
+      <TextField fx:id="tf_team_name" layoutX="81.0" layoutY="63.0" promptText="team name......." />
+      <TextField fx:id="tf_player_name" layoutX="26.0" layoutY="173.0" promptText="player name" />
+      <SplitMenuButton fx:id="team_list_smb" layoutX="261.0" layoutY="173.0" mnemonicParsing="false" text="Team List" />
+      <Button fx:id="register_player_button" layoutX="424.0" layoutY="173.0" mnemonicParsing="false" onAction="#registerPlayer" text="Register Player" />
+      <Button fx:id="print_team_button" layoutX="248.0" layoutY="255.0" mnemonicParsing="false" onAction="#printTeam" text="Print Team" />
+      <Label fx:id="team_label" layoutX="122.0" layoutY="309.0" prefHeight="174.0" prefWidth="344.0" />
+      <Button fx:id="login_screen_button" layoutX="451.0" layoutY="544.0" mnemonicParsing="false" text="Logout" />
+   </children>
+</AnchorPane>

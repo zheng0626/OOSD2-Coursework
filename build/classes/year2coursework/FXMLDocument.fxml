@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="scoreSheet_button" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="year2coursework.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="120.0" layoutY="141.0" onAction="#handleButtonAction" text="Click Me!" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Button fx:id="admin_button" layoutX="61.0" layoutY="69.0" mnemonicParsing="false" onAction="#gotoSceneAdmin" text="Admin" />
+      <Button fx:id="viewer_button" layoutX="201.0" layoutY="69.0" mnemonicParsing="false" onAction="#gotoSceneViewer" text="Viewer" />
+    </children>
+</AnchorPane>
