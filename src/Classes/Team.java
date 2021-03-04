@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package year2coursework;
+package Classes;
 
 
 import java.util.ArrayList;
@@ -34,6 +34,7 @@ public class Team {
     
     public void addPlayer(Player player){
         players.add(player);
+        this.num_player++;
     }
     
     public int getNumPlayer(){

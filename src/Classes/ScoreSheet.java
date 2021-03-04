@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package year2coursework;
+package Classes;
 
 import java.util.ArrayList;
 
@@ -12,42 +12,23 @@ import java.util.ArrayList;
  * @author User
  */
 public class ScoreSheet {
-    Team home_team;
-    Team away_team;
-    Player home_player;
-    Player away_player;
     ArrayList<Set> sets = new ArrayList<>();
+    private String homePlayer1;
+    private String homePlayer2;
+    private String awayPlayer1;
+    private String awayPlayer2;
     String finalScore;
     int homeScore;
     int awayScore;
     
     public ScoreSheet(){
-        home_team = null;
-        away_team = null;
         for(int i = 0;i < 5;i++){
             sets.add(new Set());
         }
-        
     }
-    
-    public void setHomeTeam(Team team){
-        this.home_team = team;
-    }
-    
-    public void setAwayTeam(Team team){
-        this.away_team = team;
-    }
-    
-    public void setHomePlayer(Player player){
-        this.home_player = player;
-    }
-    
-    public void setAwayPlayer(Player player){
-        this.away_player = player;
-    }    
-    
-    public void setSet(int index,Set set){  
-        sets.set(index,set);
+
+    public void setSet(ArrayList<Set> set){  
+        this.sets = set;
     }
     
     public void setScore(int home_score,int away_score){
@@ -55,5 +36,19 @@ public class ScoreSheet {
         this.awayScore = away_score;
         String finalScore = String.valueOf(homeScore) + ":" + String.valueOf(awayScore);
     }   
+    
+    public void setHomePlayer(String player1,String player2){
+        this.homePlayer1 = player1;
+        this.homePlayer2 = player2;
+    }
+    
+    public void setAwayPlayer(String player1,String player2){
+        this.awayPlayer1 = player1;
+        this.awayPlayer2 = player2;
+    }
+    
+    public ArrayList<Set> getSet(){
+        return sets;
+    }
     
 }

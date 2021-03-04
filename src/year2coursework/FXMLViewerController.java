@@ -8,6 +8,7 @@ package year2coursework;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.fxml.Initializable;
+import javafx.stage.Stage;
 
 /**
  * FXML Controller class
@@ -15,13 +16,15 @@ import javafx.fxml.Initializable;
  * @author User
  */
 public class FXMLViewerController implements Initializable {
-
-    /**
-     * Initializes the controller class.
-     */
+    private Stage loginStage;
+    
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
-    }    
+    }
+
+    public void setLoginStage(Stage loginStage){
+        this.loginStage = loginStage;
+    }
     
 }

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package year2coursework;
+package Classes;
 
 /**
  *
@@ -28,6 +28,12 @@ public class Set {
     public Set(String home_player,String away_player,String game1,String game2,String game3){
         this.home_player = home_player;
         this.away_player = away_player;
+        this.game1 = game1;
+        this.game2 = game2;
+        this.game3 = game3;
+    }
+    
+    public Set(String game1,String game2,String game3){
         this.game1 = game1;
         this.game2 = game2;
         this.game3 = game3;

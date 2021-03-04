@@ -3,13 +3,23 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package year2coursework;
+package Classes;
 
 import java.util.ArrayList;
+
 /**
  *
  * @author User
  */
-public class Match {
-    ArrayList<Team> team = new ArrayList<Team>();
+public class Fixture {
+    private ArrayList<Team> teams;
+    
+    public Fixture(ArrayList<Team> fix_team){
+        teams = fix_team;
+    }
+    
+    public ArrayList<Team> getTeams(){
+        return teams;
+    }
+    
 }

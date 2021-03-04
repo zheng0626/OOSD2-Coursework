@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="Year2CourseWork.jar" size="11121" download="eager" />
+    <jar href="Year2CourseWork.jar" size="18810" download="eager" />
   </resources>
   <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Year2CourseWork" >
     <param name="requiredFXVersion" value="8.0+"/>
